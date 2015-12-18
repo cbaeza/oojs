@@ -2,6 +2,7 @@
 Object Oriented Programming in JavaScript
 
 # Build 
+	npm install
 	gulp
 	
 # Run
