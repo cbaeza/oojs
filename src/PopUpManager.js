@@ -1,14 +1,27 @@
-var PopUpManager;
+$(function () {
+	var PopUpManager = (function () {
 
-PopUpManager = (function() {
-	PopUpManager.prototype.options = {};
+		/**
+		 * A simple constructor
+		 * @constructor
+		 */
+		function PopUpManager() {
+			var c = this;
+			console.log("constructor!");
+			c.init();
+		}// constructor
 
-	function PopUpManager(options) {
-		this.options = options;
-	}
+		/**
+		 * init some things
+		 */
+		PopUpManager.prototype.init = function () {
+			console.log("init PopUpManager!");
+		};// init
 
-	PopUpManager.prototype.init = function() {};
+		return PopUpManager;
 
-	return PopUpManager;
+	})();// PopUpManager
 
-})();
+	new PopUpManager();
+});
+
