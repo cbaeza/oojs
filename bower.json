@@ -1,0 +1,29 @@
+{
+  "name": "oojs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cbaeza/oojs",
+  "authors": [
+    "cbaeza <carlos.baeza@posteo.de>"
+  ],
+  "description": "Object Oriented Programming in Javascript",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "oop",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
