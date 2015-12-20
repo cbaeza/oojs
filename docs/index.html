@@ -5,22 +5,44 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>OOJS</title>
-
-	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
 	<script type="application/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 
 </head>
-<body>
-<div class="container">
-	<h1>OOPJS</h1>
-	<button id="myButton"
-	        class="btn-primary btn-lg"
-	        data-button-click="my-data">click me</button>
-</div>
 
-<!-- TODO: use requirejs to load all libraries -->
-<script src="../src/PopUpManager.js"></script>
-<script type="application/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Java Script Fun</h1>
+			<p>dialogs, modals, popovers, tooltips...in progress</p>
+		</div>
+		<button id="myButton" class="btn-primary btn-lg" data-button-click="my special data to show">click me</button>
+	</div>
+	
+	
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- TODO: use requirejs to load all libraries -->
+	<script src="../src/PopUpManager.js"></script>
+	<script type="application/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
