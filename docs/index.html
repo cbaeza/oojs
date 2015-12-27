@@ -5,10 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>OOJS</title>
-	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+	<!-- link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" / !-->
+	<!-- link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" / !-->
 	<script type="application/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
-
+	<link rel="stylesheet" href="/docs/css/style.css" />
+	
 </head>
 
 <body>
@@ -17,9 +18,21 @@
 			<h1>Java Script Fun</h1>
 			<p>dialogs, modals, popovers, tooltips...in progress</p>
 		</div>
-		<button id="myButton" class="btn-primary btn-lg" data-button-click="my special data to show">click me</button>
-	</div>
+		<button id="myButton" class="btn-primary btn-lg" data-button-click="my special data to show">I am a modal dialog</button>
 	
+
+	<!-- -->
+	<div>
+		<h2>Search in Google</h2>
+		<input id="searchQuery" type="text" class="" alt="Search in Google !"/>
+		<button id="btnSearch">Search</button>
+	</div>	
+	<div>
+		<span>Books</span>
+		<ul id="list"></ul>
+	</div>
+	</div>
+	<!--end container -->
 	
 	<!-- Modal -->
 	<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -42,6 +55,8 @@
 
 	<!-- TODO: use requirejs to load all libraries -->
 	<script src="../src/PopUpManager.js"></script>
+	<script src="../src/SearchInGoogle.js"></script>
+	<script src="../src/PictureManager.js"></script>
 	<script type="application/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 

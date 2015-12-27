@@ -12,7 +12,7 @@
 			var c = this;
 			c.options = options;
 			//console.log("constructor!");
-			console.log(c.options);
+			//console.log(c.options);
 			c.init();
 		}// constructor
 
@@ -24,9 +24,9 @@
 			var c = this,
 				$button = $('#myButton');
 
-			console.log($button.text());
+			//console.log($button.text());
 			if (typeof $button !== 'undefined' && $button !== null) {
-				console.log('set click event');
+				//console.log('set click event');
 				$button.click(function (event) {
 					event.preventDefault();
 					event.stopPropagation();

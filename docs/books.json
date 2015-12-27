@@ -1,0 +1,55 @@
+[
+  {
+    "id" : "978-0641723445",
+    "cat" : ["book","hardcover"],
+    "name" : "The Lightning Thief",
+    "author" : "Rick Riordan",
+    "series_t" : "Percy Jackson and the Olympians",
+    "sequence_i" : 1,
+    "genre_s" : "fantasy",
+    "inStock" : true,
+    "price" : 12.50,
+    "pages_i" : 384,
+	"image": "http://t0.gstatic.com/images?q=tbn:ANd9GcTKcKHSxzoA5l3gHkgId6tJvkDCyfOTspEs7vJ9OFJt5bchXA_c"
+  }
+,
+  {
+    "id" : "978-1423103349",
+    "cat" : ["book","paperback"],
+    "name" : "The Sea of Monsters",
+    "author" : "Rick Riordan",
+    "series_t" : "Percy Jackson and the Olympians",
+    "sequence_i" : 2,
+    "genre_s" : "fantasy",
+    "inStock" : true,
+    "price" : 6.49,
+    "pages_i" : 304,
+	"image":"http://t3.gstatic.com/images?q=tbn:ANd9GcTIrKfdjFmgr2mNz_X53iE41PEvKxgIHqY02BvlK2U9fJE4ejfv"
+  }
+,
+  {
+    "id" : "978-1857995879",
+    "cat" : ["book","paperback"],
+    "name" : "Sophie's World : The Greek Philosophers",
+    "author" : "Jostein Gaarder",
+    "sequence_i" : 1,
+    "genre_s" : "fantasy",
+    "inStock" : true,
+    "price" : 3.07,
+    "pages_i" : 64,
+	"image": "http://t2.gstatic.com/images?q=tbn:ANd9GcR15k-ZQ1nWagKAWZElGO2j_JxMuFwt0vnfV2fa2_L99ei7YoeS"
+  }
+,
+  {
+    "id" : "978-1933988177",
+    "cat" : ["book","paperback"],
+    "name" : "Lucene in Action, Second Edition",
+    "author" : "Michael McCandless",
+    "sequence_i" : 1,
+    "genre_s" : "IT",
+    "inStock" : true,
+    "price" : 30.50,
+    "pages_i" : 475,
+	"image":"https://images.manning.com/255/340/resize/book/3/303a31b-f035-4f33-9527-3bc492fed54b/hatcher3.png"
+  }
+]
